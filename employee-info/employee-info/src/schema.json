@@ -1,0 +1,39 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Employee Information",
+    "description": "Schema for Employee Information",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Username of the employee"
+      },
+      "name": {
+        "type": "string",
+        "description": "Name of the employee"
+      },
+      "gender": {
+        "type": "string",
+        "description": "gender of the employee"
+      },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "description": "Email address of the employee"
+      },
+      "salary": {
+        "type": "string",
+        "description": "salary of the employee"
+      },
+      "experience": {
+        "type": "string",
+        "description": "experience of the employee in years"
+      },
+      "hiredDate": {
+        "type": "string",
+        "description": "date when the employee was hired"
+      }
+    },
+    "required": ["id", "name", "gender", "email", "salary", "experience", "hiredDate"]
+  }
+  

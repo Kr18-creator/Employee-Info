@@ -1,0 +1,6 @@
+.main-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px;
+  }
